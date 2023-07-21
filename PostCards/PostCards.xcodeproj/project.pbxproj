@@ -12,6 +12,9 @@
 		A0ABB8EF2A6AD556007E8B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0ABB8EE2A6AD556007E8B31 /* Assets.xcassets */; };
 		A0ABB8F22A6AD556007E8B31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0ABB8F12A6AD556007E8B31 /* Preview Assets.xcassets */; };
 		A0ABB8FE2A6AE164007E8B31 /* postcard.json in Resources */ = {isa = PBXBuildFile; fileRef = A0ABB8FD2A6AE164007E8B31 /* postcard.json */; };
+		A0ABB9002A6AF7B7007E8B31 /* cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABB8FF2A6AF7B7007E8B31 /* cards.swift */; };
+		A0ABB9022A6AF7F3007E8B31 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABB9012A6AF7F3007E8B31 /* CardModel.swift */; };
+		A0ABB9042A6AF84E007E8B31 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABB9032A6AF84E007E8B31 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		A0ABB8EE2A6AD556007E8B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0ABB8F12A6AD556007E8B31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0ABB8FD2A6AE164007E8B31 /* postcard.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postcard.json; sourceTree = "<group>"; };
+		A0ABB8FF2A6AF7B7007E8B31 /* cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards.swift; sourceTree = "<group>"; };
+		A0ABB9012A6AF7F3007E8B31 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		A0ABB9032A6AF84E007E8B31 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		A0ABB8F92A6AD574007E8B31 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A0ABB8FF2A6AF7B7007E8B31 /* cards.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 		A0ABB8FA2A6AD57C007E8B31 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A0ABB9012A6AF7F3007E8B31 /* CardModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 		A0ABB8FC2A6AD58C007E8B31 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A0ABB9032A6AF84E007E8B31 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -181,8 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0ABB9002A6AF7B7007E8B31 /* cards.swift in Sources */,
+				A0ABB9022A6AF7F3007E8B31 /* CardModel.swift in Sources */,
 				A0ABB8ED2A6AD553007E8B31 /* ContentView.swift in Sources */,
 				A0ABB8EB2A6AD553007E8B31 /* PostCardsApp.swift in Sources */,
+				A0ABB9042A6AF84E007E8B31 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
