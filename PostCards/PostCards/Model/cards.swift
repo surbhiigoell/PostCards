@@ -10,4 +10,6 @@ import Foundation
 class card: Identifiable , Decodable{
     
     var id:UUID?
+    var name:String
+    var image:String
 }

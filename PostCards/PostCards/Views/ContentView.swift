@@ -8,14 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var model = CardModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        ScrollView{
+            
+            VStack {
+                NavigationView {
+                    
+                    ForEach (model.cardmodel){ Card in
+
+                        NavigationLink {
+
+                        } label: {
+                            ZStack{
+                                Image(Card.image)
+                                
+                            }
+                        }
+
+
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
