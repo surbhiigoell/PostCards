@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "171950C6-9FA4-4679-8CAA-8221A97F381E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9221AE7-D2CB-4745-A966-1CDC71EAA83D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostCards/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F9221AE7-D2CB-4745-A966-1CDC71EAA83D - e7a2e07d66a2a1c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.NavigationView&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt;&gt; in PostCards.ContentView.body.getter : some"
+                  moduleName = "PostCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surbhigoel/PostCards/PostCards/PostCards/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "F9221AE7-D2CB-4745-A966-1CDC71EAA83D - a1f23ed47f58070c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.NavigationView&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.NavigationView&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt;&gt; in PostCards.ContentView.body.getter : some"
+                  moduleName = "PostCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surbhigoel/PostCards/PostCards/PostCards/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "F9221AE7-D2CB-4745-A966-1CDC71EAA83D - a1f23ed47f5807ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.NavigationView&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.NavigationView&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt;&gt; in PostCards.ContentView.body.getter : some"
+                  moduleName = "PostCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surbhigoel/PostCards/PostCards/PostCards/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "F9221AE7-D2CB-4745-A966-1CDC71EAA83D - 1a903793a2de9603"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in PostCards.ContentView.body.getter : some"
+                  moduleName = "PostCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surbhigoel/PostCards/PostCards/PostCards/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "F9221AE7-D2CB-4745-A966-1CDC71EAA83D - 3512a7846325a3fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in PostCards.ContentView.body.getter : some"
+                  moduleName = "PostCards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surbhigoel/PostCards/PostCards/PostCards/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

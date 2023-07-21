@@ -15,22 +15,28 @@ struct ContentView: View {
         
         ScrollView{
             
-            VStack {
-                NavigationView {
+            VStack(alignment: .leading) {
                     
-                    ForEach (model.cardmodel){ Card in
-
+                ForEach (model.cardmodel){ c in
+                    NavigationView{
                         NavigationLink {
-
+                            descriptions(Card: c)
                         } label: {
                             ZStack{
-                                Image(Card.image)
+                                Image(c.image)
+                                    .resizable()
+                                    .padding(/*@START_MENU_TOKEN@*/.all, 2.0/*@END_MENU_TOKEN@*/)
+                                    .scaledToFit()
+                                    .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                                    .opacity(0.6)
+                                Text(c.name)
+                                    .font(.largeTitle)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.black)
                                 
                             }
                         }
-
-
-                    }
+                    }.navigationTitle("Post Cards")
                 }
             }
         }
