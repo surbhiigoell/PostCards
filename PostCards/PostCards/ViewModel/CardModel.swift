@@ -9,10 +9,10 @@ import Foundation
 
 class CardModel : ObservableObject{
     
-    @Published var cardmodel = CardModel()
+    @Published var cardmodel = [card]()
     
     init()
     {
-        //self.cardmodel = DataService
+        self.cardmodel = DataService.getData()
     }
 }
