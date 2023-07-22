@@ -23,7 +23,7 @@ struct ContentView: View {
                             Image(c.image)
                                 .resizable()
                                 .scaledToFill()
-                                .cornerRadius(5.0)
+//                                .cornerRadius(15.0)
                                 .opacity(0.8)
                                 .shadow(radius: 5)
                                 .border(/*@START_MENU_TOKEN@*/Color(red: 0.838, green: 0.725, blue: 0.702)/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
