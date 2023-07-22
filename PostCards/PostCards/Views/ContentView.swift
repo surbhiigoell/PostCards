@@ -9,35 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject var model = CardModel()
-    
     var body: some View {
         
-        ScrollView{
-            
-            VStack(alignment: .leading) {
-                    
-                ForEach (model.cardmodel){ c in
-                    NavigationView{
-                        NavigationLink {
-                            descriptions(Card: c)
-                        } label: {
-                            ZStack{
-                                Image(c.image)
-                                    .resizable()
-                                    .padding(/*@START_MENU_TOKEN@*/.all, 2.0/*@END_MENU_TOKEN@*/)
-                                    .scaledToFit()
-                                    .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-                                    .opacity(0.6)
-                                Text(c.name)
-                                    .font(.largeTitle)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color.black)
+        @ObservedObject var model = CardModel()
+        
+        NavigationView{
+            ScrollView{
+                ForEach (model.cardmodel) { c in
+                    NavigationLink {
+                        descriptions(Card: c)
+                    } label: {
+                        ZStack{
+                            Image(c.image)
+                                .resizable()
+                                .scaledToFill()
+                                .cornerRadius(5.0)
+                                .opacity(0.8)
+                                .shadow(radius: 5)
+                                .border(/*@START_MENU_TOKEN@*/Color(red: 0.838, green: 0.725, blue: 0.702)/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                            Text(c.name)
+//                                .font(.largeTitle)
+                                .font(.system(size: 48))
+                                .fontWeight(.medium)
+                                .foregroundColor(Color(hue: 1.0, saturation: 0.874, brightness: 0.19))
+                                .fontDesign(.rounded)
+                                .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
                                 
-                            }
+                                
+                                
+                            
                         }
-                    }.navigationTitle("Post Cards")
-                }
+                        .padding(.horizontal, 22.0)
+                        .padding(.vertical, 10.0)
+                    }
+                }.navigationTitle("Post Cards")
             }
         }
     }

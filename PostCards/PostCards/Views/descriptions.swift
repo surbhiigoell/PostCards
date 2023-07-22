@@ -18,6 +18,8 @@ struct descriptions: View {
                 Image(Card.name)
                     .resizable()
                     .scaledToFill()
+                
+                Text(Card.name)
             }
         }
     }

@@ -8,16 +8,12 @@
         "image" : "gratitude"
     },
     {
-        "name" : "france",
-        "image" : "france"
-    },
-    {
-        "name" : "memories",
-        "image" : "memories"
-    },
-    {
         "name" : "smallThings",
         "image" : "smallThings"
+    },
+    {
+        "name" : "france",
+        "image" : "france"
     },
     {
         "name" : "nature",
