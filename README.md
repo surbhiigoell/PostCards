@@ -1,4 +1,7 @@
 # PostCards
+
+An iOS app developed with SwiftUI, utilizing JSON encoding for data retrieval and robust error handling mechanisms. It enables users to explore and create personalized digital postcards with captivating themes and images, delivering a seamless user experience.
+
 ![Simulator Screenshot - iPhone 14 Pro - 1](https://github.com/surbhiigoell/PostCards/assets/75853663/9b1a4093-51a2-4d1e-9db4-dd19e3885052)
 
 ![Simulator Screenshot - iPhone 14 Pro - 2](https://github.com/surbhiigoell/PostCards/assets/75853663/60f7c21f-dab2-4c51-ac2e-c8ec45838313)
